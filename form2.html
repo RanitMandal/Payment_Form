@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+
+    <style>
+        
+        .main{
+            width: 650px;
+            border: 1px solid black;
+            padding: 10px;
+            height: 400px;
+            background-color: aquamarine;
+           
+        
+            
+        }
+
+        .address{
+            width: 280px;
+            left: 20px;
+            height: 400px;
+            font-size: 18px;
+            position: absolute;
+            padding: 5px;
+            margin: auto;
+            border: 10px sloid black;
+            font-size: 20px;
+            font-family: sans-serif;
+
+        }
+
+        .payment{
+            width: 280px;
+            left: 350px;
+            height: 400px;
+            font-size: 18px;
+            position: absolute;
+            padding: 5px;
+            margin: auto;
+            border: 10px sloid black;
+            font-size: 20px;
+            font-family: sans-serif;
+            
+            
+        }
+
+        h3{
+            color: black;
+            padding: 0px;
+            margin: opx;
+            padding-left: 10px;
+        }
+
+        input{
+            width: 100%;
+            padding: 4px;
+            border-radius: 3px;
+            border: 1px solid black;
+        }
+        .sz input, .expcvv input{
+            width: 20%;
+        }
+    
+        div .sz, div .expcvv{
+            float: right;
+            top: 800px;
+            right: 50px;
+            padding-top: 10px;
+        }
+        div{
+            color:rgb(18, 18, 203) ;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .button{
+            padding-top: 60px;
+        }
+
+        .button input{
+            background-color: rgb(17, 68, 112);
+            color: white;
+            border-radius: 2px;
+            padding: 10px;
+            font-size: 15px;
+            transition: 0.4s ease;
+        }
+
+        .button input:hover{
+            background-color: blue;
+            cursor:pointer;
+            transition: 0.2 ease;
+
+        }
+        .button input:visited{
+            background-color: rgb(255, 0, 51);
+            cursor:pointer;
+            transition: 0.2 ease;
+
+        }
+        img{
+            width: 65px;
+        }
+
+
+    </style>
+</head>
+<body>
+   <div class="main">
+        <form action="backend.php">
+        <div class="address">
+            <h3>Billing Address</h3>
+            <div>
+                Full Name
+                <input type="text">
+            </div>
+            <div>
+                Email
+                <input type="email">
+            </div>
+            <div>
+                Address 
+                <input type="text">
+            </div>
+            <div>
+                City
+                <input type="text">
+            </div>
+            <div class="sz">
+                State
+                <input type="option">
+                Zip Code
+                <input type="number">
+        
+            </div>
+
+        </div>
+
+        <div class="payment">
+            <h3>Payment</h3>
+            <div class="cardimg">
+                Accept Card <br>
+                <img src="icon2/1325432106.svg" alt="">
+                <img src="icon2/bw-creditcard.svg" alt="">
+                <img src="icon2/basicCreditCard.svg" alt="">
+                <img src="icon2/credit-card-front.svg" alt="">
+
+            </div>
+            <div>
+                Card Number 
+                <input type="number" name="" id="">
+
+            </div>
+            <div>
+                Exp Month 
+                <input type="numbere">
+            </div>
+            <div class="expcvv">
+                Exp Year
+                <input type="year">
+                CVV
+                <input type="number">
+
+            </div>
+            <div class="button">
+                <input type="submit" value="Proceed to Checkout">
+            </div>
+
+
+        </div> 
+        </form>
+   </div>
+
+    
+</body>
+</html>
