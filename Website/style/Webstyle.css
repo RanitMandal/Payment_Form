@@ -1,0 +1,225 @@
+*{
+    margin: none;
+    padding: 0;
+
+}
+
+body{
+    background: url("/images/background.webp");
+    width: 100%;
+    height: 109vh;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    /* position:absolute; */
+    display:flex;
+    overflow-x:  hidden;
+}
+
+header{
+    background:rgba(1, 9, 18, 0.888);
+    float: left;
+    width: 100%;
+    height: 25px;
+    margin: 0;
+    padding: 0.5%;
+    font-size: 20px;
+    position:absolute;
+    display:flex;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.lopro,a{
+    color: white;
+}
+
+.lopro{
+    width: 19%;
+    float: left;
+    border: 1px solid red;
+    position:absolute;
+    display:flex;
+    text-align: center;
+
+}
+
+.logo{
+    width:49%; 
+    height: 100%;
+    
+}
+
+
+.product{
+    width:49%;
+    height: 100%;
+    left: 50px;
+
+}
+
+.nav{
+    width: 49%;
+    float: left;
+    border: 1px solid red;
+    position:absolute;
+    text-align: center;
+    left: 305px;
+    align-content:center;
+
+}
+.nav a{
+    margin: 0 10px;
+    text-decoration: none;
+}
+div .profile{
+    width: 19%;
+    border: 1px solid red;
+    position:absolute;
+    left: 1062px;
+    align-content:center;
+}
+
+.profile img{
+    margin: 0 10px;
+}
+.button{
+    width: 9%;
+    border: 1px solid red;
+    position:absolute;
+    left: 1360px;
+    align-content:center;
+    
+}
+.button button{
+    width: 90%;
+    background-color: rgba(255, 0, 0, 0.468);
+    margin: 1px solid red;
+    padding: 2%;
+    color: white;
+    font-size: 10px;
+    align-items: center;
+}
+
+.body{
+    width: 100%;
+    position:absolute;
+    top:25%;
+    float: left;
+    border: 1px solid rgb(212, 255, 0);
+    position:absolute;
+    display:flex;
+
+}
+
+.contain{
+    width: 95%;
+    position:absolute;
+    float: left;
+    border: 1px solid rgb(0, 110, 255);
+    position:absolute;
+    color: red;
+    left: 5%;
+
+}
+
+.title{
+    width: 100%;
+    font-size: 400%;
+    color: #ffffff;
+    position: absolute;
+
+
+}
+
+.contain p{
+    width: 100%;
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    top: 130px;
+}
+.trialbutton{
+    width: 100%;
+    position: absolute;
+    top: 250px;
+
+}
+
+.trialbutton button{
+    font-size: 16px;
+    width: 20%;
+    height: 40px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+p.small{
+    top: 100%;
+    color: white;
+    font-size: 13px;
+}
+
+
+.options{
+    width: 90%;
+    height: 30%;
+    position:absolute;
+    top:80%;
+    left: 5%;
+    /* float: left; */
+    /* border: 1px solid rgb(0, 238, 255); */
+    display:flex;
+    color: white;
+
+}
+
+.fbox, .sbox{
+    width: 50%;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+.ui, .dev{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 255, 255, 0.445); */
+    /* padding: 5px; */
+    /* margin: 10px; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ui div, .dev div{
+    width: 33%;
+    height: 100%;
+    background-color: rgba(14, 14, 131, 0.646);
+    padding: 5px;
+    margin: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: 0.3 ease;
+    
+}
+
+img{
+    width: 20%;
+
+}
+
+.ui div:hover, .dev div:hover{
+    background-color: rgba(127, 255, 212, 0.463);
+    color: rgb(255, 234, 4);
+    transition: 0.4s ease;
+   
+}
+
+.ui div:hover,.dev div:hover{
+    transform:scale(1.07);
+}
